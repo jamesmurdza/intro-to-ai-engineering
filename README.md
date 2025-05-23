@@ -1,11 +1,9 @@
-# Introduction to AI Engineering
-
 In this workshop we will explore how large language models (LLMs) are created, trained, and fine-tuned to generate useful responses. You'll also learn how to interact with these models using APIs and apply them to tasks like chat, vision, tool use, and vector search.
 
 # Prerequisites
 
 <p align="center">
-  <img src="https://gist.githubusercontent.com/user-attachments/assets/e51efecf-aed3-4136-a245-d0660d3ff3b8" height="200" />
+  <img src="https://github.com/user-attachments/assets/be39ac7f-538d-48bb-b3db-2a6f85cd4ed0" height="200" />
 </p>
 
 Required:
@@ -18,7 +16,7 @@ Optional:
 # How LLMs are trained
 
 <p align="center">
-<img src="https://gist.github.com/user-attachments/assets/0e480a1d-9fcc-40aa-9eaa-ea11d9484fc7" height="400" />
+<img src="https://github.com/user-attachments/assets/db8885fe-75a6-45d6-aae3-01cd62fa2ca2" height="400" />
 </p>
 
 More information:
@@ -27,7 +25,7 @@ More information:
 
 # Comparison of LLMs
 
-![image](https://gist.github.com/user-attachments/assets/a1a22881-d70b-4eb1-95a2-f9efadfc9333)
+![image](https://github.com/user-attachments/assets/76ccacf7-dd81-4951-a42f-d6dff874ce57)
 
 * Crowdsourced evals: [ChatBot Arena](https://lmarena.ai/)
 * Coding evals: [Aider](https://aider.chat/docs/leaderboards/)
@@ -35,7 +33,7 @@ More information:
 # Using an LLM
 
 <p align="center">
-<img src="https://gist.github.com/user-attachments/assets/844e6187-b712-49ec-8c15-32029357b833" height="300" />
+<img src="https://github.com/user-attachments/assets/89a11d99-9ec4-4501-8614-52dba7a76773" height="300" />
 </p>
 
 In this example, we initialize the OpenRouter client with an API key and send a chat message to the Llama model. The model processes the input and returns a response, which is then printed.
@@ -68,7 +66,7 @@ print(completion.choices[0].message.content)
 # Vision
 
 <p align="center">
-<img src="https://gist.github.com/user-attachments/assets/0a9a8487-bfb0-46ec-b30e-83ded0fdd52e" height="300" />
+<img src="https://github.com/user-attachments/assets/a0082f62-c641-4a29-9da8-4a1f76ebbb77" height="300" />
 </p>
 
 In this example, we fetch an image from a URL, encode it to base64, and send it along with a question to the Llama model using OpenRouter. The model analyzes the image and provides a descriptive response, which is printed.
@@ -123,7 +121,7 @@ print(completion.choices[0].message.content)
 # Tool-use
 
 <p align="center">
-<img src="https://gist.github.com/user-attachments/assets/dd228e3e-1dc3-448f-ae78-d0788b2baecc" height="300" />
+<img src="https://github.com/user-attachments/assets/654df9a6-4e3c-4094-bd70-a4b844c3260a" height="300" />
 </p>
 
 In this example, we define a tool schema for evaluating mathematical expressions, then send a user query along with the tool definition to the Llama model. The model responds by invoking the appropriate tool function, and we print the function call it generated.
@@ -172,7 +170,7 @@ print(completion.choices[0].message.tool_calls[0].function)
 # Vector search
 
 <p align="center">
-<img src="https://gist.github.com/user-attachments/assets/5fe7b1a9-2e53-4dd8-b2ed-b25d0db0f3ea" width="300" />
+<img src="https://github.com/user-attachments/assets/6f08c496-1b5d-491e-9f15-bbe71a905394" width="300" />
 </p>
 
 In this example, we generate vector embeddings for a set of predefined customer service intents and a user query using OpenAI’s embedding model. We calculate cosine similarities between the query and each intent, rank them, and print the top 3 most similar intents based on the similarity scores.
