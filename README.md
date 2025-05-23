@@ -2,6 +2,16 @@
 
 In this workshop we will explore how large language models (LLMs) are created, trained, and fine-tuned to generate useful responses. You'll also learn how to interact with these models using APIs and apply them to tasks like chat, vision, tool use, and vector search.
 
+## Recording
+
+See below for a recording of the workshop:
+<p>
+    <a href="https://github.com/user-attachments/assets/be39ac7f-538d-48bb-b3db-2a6f85cd4ed0">
+      <img src="https://i.ytimg.com/vi/cPo0y8nrZTI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDqaHG60A2fJ2UjjzduWHnPqhfCcQ" /><br />
+      🔴 Live Workshop Recording from May 23, 2025
+    </a>
+</p>
+
 ## Prerequisites
 
 <p align="center">
