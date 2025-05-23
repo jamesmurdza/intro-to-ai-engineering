@@ -1,6 +1,8 @@
+# Introduction to AI Engineering
+
 In this workshop we will explore how large language models (LLMs) are created, trained, and fine-tuned to generate useful responses. You'll also learn how to interact with these models using APIs and apply them to tasks like chat, vision, tool use, and vector search.
 
-# Prerequisites
+## Prerequisites
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/be39ac7f-538d-48bb-b3db-2a6f85cd4ed0" height="200" />
@@ -13,7 +15,7 @@ Required:
 Optional:
 * An [OpenAI API Key](https://platform.openai.com/account/api-keys)
 
-# How LLMs are trained
+## How LLMs are trained
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/db8885fe-75a6-45d6-aae3-01cd62fa2ca2" height="400" />
@@ -23,14 +25,14 @@ More information:
 * [Tokenizer](https://platform.openai.com/tokenizer)
 * [Transformers (how LLMs work) explained visually](https://www.youtube.com/watch?v=wjZofJX0v4M&t=246s&pp=ygUQM2JsdWUxYnJvd24gbGxtcw%3D%3D)
 
-# Comparison of LLMs
+## Comparison of LLMs
 
 ![image](https://github.com/user-attachments/assets/76ccacf7-dd81-4951-a42f-d6dff874ce57)
 
 * Crowdsourced evals: [ChatBot Arena](https://lmarena.ai/)
 * Coding evals: [Aider](https://aider.chat/docs/leaderboards/)
 
-# Using an LLM
+## Using an LLM
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/89a11d99-9ec4-4501-8614-52dba7a76773" height="300" />
@@ -63,7 +65,7 @@ completion = client.chat.completions.create(
 print(completion.choices[0].message.content)
 ```
 
-# Vision
+## Vision
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/a0082f62-c641-4a29-9da8-4a1f76ebbb77" height="300" />
@@ -118,7 +120,7 @@ completion = client.chat.completions.create(
 print(completion.choices[0].message.content)
 ```
 
-# Tool-use
+## Tool-use
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/654df9a6-4e3c-4094-bd70-a4b844c3260a" height="300" />
@@ -167,7 +169,10 @@ completion = client.chat.completions.create(
 print(completion.choices[0].message.tool_calls[0].function)
 ```
 
-# Vector search
+Resources:
+* [AI Agent Camp: Building a JSON agent from scratch](https://youtu.be/xs5jTcv-2zY?list=PLjr9jgZODm4ybIGOaaRQIqDYc-KJVx6VL)
+
+## Vector search
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/6f08c496-1b5d-491e-9f15-bbe71a905394" width="300" />
